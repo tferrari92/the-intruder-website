@@ -53,7 +53,7 @@ h6 {
     width: 1100px;
     margin-left: auto;
     margin-right: auto;
-    padding: 70px 0 20px 0;
+    padding: 70px 0 10px 0;
     
     display: flex;
     justify-content: space-around;
@@ -137,7 +137,7 @@ h6 {
 }
 
 #index-paragraph {
-    font-size: 20;
+    font-size: 22;
     line-height: 2;
 }
 
