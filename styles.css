@@ -58,15 +58,19 @@ h6 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 
 #titles-buttons {
     padding-bottom: 40px;
+    
 }
 
 #Welcome-to {
     font-size: 40;
+    font-weight: 400;
     margin: 0;
+
 }
 
 #The-Intruder {
@@ -77,6 +81,7 @@ h6 {
 
 #Party-Game {
     font-size: 50;
+    font-weight: 400;
     margin: 0;
 }
 
