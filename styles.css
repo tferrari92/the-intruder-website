@@ -23,10 +23,21 @@ body {
 
 
 a {
-    color: #eeeeee;
+    color: #ffffff;
     margin: 0 10px;
 }
 
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+a:active {
+    color: #ffffff;
+}
 
 h6 {
     font-family: 'Lilita One', cursive;
@@ -100,7 +111,7 @@ h6 {
 #Download-now {
     margin: 0 0 30px 0;
     font-size: 30;
-    color: #eeeeee;
+    color: #ffffff;
 }
 
 #app-store {
@@ -136,5 +147,5 @@ h6 {
 }
 
 .white-font {
-    color: #eeeeee;
+    color: #ffffff;
 }
