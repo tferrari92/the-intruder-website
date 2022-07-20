@@ -13,17 +13,17 @@ p {
 h1 {
     font-family: 'Lilita One', cursive;
     font-size: 90;
-    margin: 0 0 0 0;
+    margin: 0;
 }
 
 h2 {
     font-size: 50;
-    margin: 0 0 0 0;
+    margin: 0;
 }
 
 h3 {
     font-size: 40;
-    margin: 0 0 0 0;
+    margin: 0;
 }
 
 h4 {
@@ -34,6 +34,12 @@ h4 {
 h5 {
     font-size: 30;
     color: #eeeeee;
+}
+
+h6 {
+    font-family: 'Lilita One', cursive;
+    font-size: 70;
+    margin: 30px 0 0 0;
 }
 
 #logo {
@@ -91,3 +97,10 @@ h5 {
     border: 5px solid #6063A7;
 } */
 
+.left-allingment {
+    text-align: start;
+}
+
+.with-body-margins {
+    margin: 30px 10px 20px 10px;
+}
