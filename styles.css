@@ -60,8 +60,8 @@ h6 {
     align-items: center;
 }
 
-#titles {
-    padding-bottom: 80px;
+#titles-buttons {
+    padding-bottom: 40px;
 }
 
 #Welcome-to {
@@ -114,6 +114,13 @@ h6 {
     cursor: pointer;
 }
 
+#Get-it-now {
+    margin-top: 30px;
+    font-size: 30;
+    color: #252525;
+}
+
+
 #logo {
     width: 500px;
 }
@@ -145,13 +152,6 @@ h6 {
     background-color: #6063A7;
     
 }
-
-/* #Download-now {
-    margin: 0 0 30px 0;
-    font-size: 30;
-    color: #ffffff;
-} */
-
 
 
 #links {
