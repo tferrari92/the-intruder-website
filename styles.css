@@ -2,14 +2,15 @@
 
 /* 
 display:
-flex, inline
+flex, inline, block
 
-flex-direction:
+flex-direction (changing this swaps the axises):
 row, column
-justify-content:
+
+justify-content (horizontal-axis):
 start, center, end, space-around, space-evenly, space-between
 
-allign-items:
+allign-items (vertical-axis):
 start, center, end 
 */
 
@@ -20,45 +21,17 @@ body {
     margin: 0px;
 }
 
-p {
-    font-size: 20;
-    line-height: 2;
-}
 
-h1 {
-    font-family: 'Lilita One', cursive;
-    font-size: 90;
-    margin: 0;
-}
-
-h2 {
-    font-size: 50;
-    margin: 0;
-}
-
-h3 {
-    font-size: 40;
-    margin: 0;
-}
-
-h4 {
-    font-family: 'Lilita One', cursive;
-    font-size: 40;
-}
-
-h5 {
-    font-size: 30;
+a {
     color: #eeeeee;
+    margin: 0 10px;
 }
+
 
 h6 {
     font-family: 'Lilita One', cursive;
     font-size: 70;
     margin: 30px 0 0 0;
-}
-
-#logo {
-    width: 500px;
 }
 
 #hero {
@@ -76,9 +49,34 @@ h6 {
     padding-bottom: 80px;
 }
 
+#Welcome-to {
+    font-size: 40;
+    margin: 0;
+}
+
+#The-Intruder {
+    font-family: 'Lilita One', cursive;
+    font-size: 90;
+    margin: 0;
+}
+
+#Party-Game {
+    font-size: 50;
+    margin: 0;
+}
+
+#logo {
+    width: 500px;
+}
+
 #info {
     padding: 40;
-    background-color: #eeeeee;
+    background-color: #f5f5f5;
+}
+
+#index-paragraph {
+    font-size: 20;
+    line-height: 2;
 }
 
 #specs {
@@ -88,11 +86,21 @@ h6 {
     padding: 30px 70px 30px 70px;
 }
 
+#features {
+    font-family: 'Lilita One', cursive;
+    font-size: 40;
+}
+
 #stores {
-    padding-top: 10px;
-    padding-bottom: 80px;
+    padding: 50px 0 50px 0;
     background-color: #6063A7;
     
+}
+
+#Download-now {
+    margin: 0 0 30px 0;
+    font-size: 30;
+    color: #eeeeee;
 }
 
 #app-store {
@@ -111,6 +119,10 @@ h6 {
     margin-left: 20px;
 }
 
+#links {
+    margin-top: 40px;
+}
+
 /* .bordered {
     border: 5px solid #6063A7;
 } */
@@ -121,4 +133,8 @@ h6 {
 
 .with-body-margins {
     margin: 30px 20px 40px 10px;
+}
+
+.white-font {
+    color: #eeeeee;
 }
