@@ -135,20 +135,30 @@ h6 {
     line-height: 2;
 }
 
+.bolded { 
+    font-weight: bold; 
+}
+
 #specs {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px 70px 30px 70px;
+    padding: 10px 70px 0 70px;
 }
 
 #features {
     font-family: 'Lilita One', cursive;
     font-size: 40;
+    margin-bottom: 20;
+}
+
+#screens {
+    padding-bottom: 0px;
+    width: 1400px;
 }
 
 #footer {
-    padding: 50px 0 50px 0;
+    padding: 30px 0;
     background-color: #6063A7;
     
 }
@@ -156,7 +166,6 @@ h6 {
 
 #links {
     color: #ffffff;
-    margin-top: 40px;
 }
 
 /* .bordered {
