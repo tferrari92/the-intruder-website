@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: #252525;
+    margin: 0px;
+}
+
+p {
+    font-size: 20;
+    line-height: 2;
+}
+
+h1 {
+    font-family: 'Lilita One', cursive;
+    font-size: 90;
+    margin: 0 0 0 0;
+}
+
+h2 {
+    font-size: 50;
+    margin: 0 0 0 0;
+}
+
+h3 {
+    font-size: 40;
+    margin: 0 0 0 0;
+}
+
+h4 {
+    font-family: 'Lilita One', cursive;
+    font-size: 40;
+}
+
+h5 {
+    font-size: 30;
+    color: #eeeeee;
+}
+
+#logo {
+    width: 500px;
+}
+
+#hero {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 70px 0 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#titles {
+    padding-top: 130px;
+}
+
+#info {
+    padding: 40;
+    background-color: #eeeeee;
+}
+
+#specs {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 70px 30px 70px;
+}
+
+#stores {
+    padding-top: 10px;
+    padding-bottom: 80px;
+    background-color: #6063A7;
+    
+}
+
+#app-store {
+    background:url(Assets/App\ Store.png) no-repeat;
+    width: 300px;
+    height: 100px;
+    border: none;
+    margin-right: 20px;
+}
+
+#google-play {
+    background: url("Assets/Google\ Play.png") no-repeat;
+    width: 300px;
+    height: 100px;
+    border: none;
+    margin-left: 20px;
+}
+
+/* .bordered {
+    border: 5px solid #6063A7;
+} */
+
