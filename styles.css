@@ -80,6 +80,40 @@ h6 {
     margin: 0;
 }
 
+#buttons {
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#app-store {
+    background:url(Assets/App\ Store.png) no-repeat;
+    background-size: contain;
+    width: 250px;
+    height: 75px;
+    border: none;
+    margin-right: 20px;
+}
+
+#app-store:hover {
+    cursor: pointer;
+}
+
+#google-play {
+    background: url("Assets/Google\ Play.png") no-repeat;
+    background-size: contain;
+    width: 250px;
+    height: 75px;
+    border: none;
+    margin-left: 20px;
+}
+
+#google-play:hover {
+    cursor: pointer;
+}
+
 #logo {
     width: 500px;
 }
@@ -106,37 +140,19 @@ h6 {
     font-size: 40;
 }
 
-#stores {
+#footer {
     padding: 50px 0 50px 0;
     background-color: #6063A7;
     
 }
 
-#Download-now {
+/* #Download-now {
     margin: 0 0 30px 0;
     font-size: 30;
     color: #ffffff;
-}
-
-#app-store {
-    background:url(Assets/App\ Store.png) no-repeat;
-    width: 300px;
-    height: 100px;
-    border: none;
-    margin-right: 20px;
-}
-
-/* #app-store:hover {
-    
 } */
 
-#google-play {
-    background: url("Assets/Google\ Play.png") no-repeat;
-    width: 300px;
-    height: 100px;
-    border: none;
-    margin-left: 20px;
-}
+
 
 #links {
     color: #ffffff;
@@ -154,7 +170,7 @@ h6 {
 }
 
 #results {
-    margin-top: 30px;
+    margin-top: 20px;
     width: 460px;
     height: 3150px;
 }
