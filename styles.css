@@ -107,7 +107,7 @@ h6 {
 }
 
 #google-play {
-    background: url("Assets/Google\ Play.png") no-repeat;
+    background: url("Assets/Google\ Play\ Unavailable.png") no-repeat;
     background-size: contain;
     width: 250px;
     height: 75px;
@@ -115,9 +115,9 @@ h6 {
     margin-left: 20px;
 }
 
-#google-play:hover {
+/* #google-play:hover {
     cursor: pointer;
-}
+} */
 
 #Get-it-now {
     margin-top: 30px;
