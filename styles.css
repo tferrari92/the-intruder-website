@@ -123,12 +123,13 @@ h6 {
     margin-top: 30px;
     font-size: 30;
     color: #252525;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 
 #logo {
-    width: 100%;
+    width: 400px;
+    height: auto;
 }
 
 #info {
