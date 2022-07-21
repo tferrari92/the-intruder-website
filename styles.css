@@ -159,14 +159,14 @@ h6 {
 
 #features {
     font-family: 'Lilita One', cursive;
-    font-size: 35;
+    font-size: 30;
     margin-bottom: 20;
     padding: 0 20px;
 }
 
 #screens {
     padding-bottom: 0px;
-    width: 1200px;
+    width: 1050px;
 }
 
 
@@ -233,6 +233,7 @@ h6 {
     
     
     #titles-buttons {
+        width: 45%;
         padding-bottom: 30; 
     }
     
@@ -283,7 +284,7 @@ h6 {
     
 
     #logo {
-        width: 250px;
+        width: 55%;
         margin: 0;
         padding: 0 0 0 10;
     }
@@ -294,6 +295,7 @@ h6 {
 
     #index-paragraph {
         font-size: 14;
+        line-height: 1.8;
         line-height: 2;
     }
 
@@ -308,13 +310,14 @@ h6 {
     
     #features {
         font-size: 120%;
+        line-height: 100%;
         margin-top: 25;
         margin-bottom: 0;
         padding: 0 20px;
     }
 
     #screens {
-        padding-bottom: 0px;
+        padding-bottom: 10px;
         width: 100%;
     }
 
