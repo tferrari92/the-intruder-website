@@ -263,21 +263,21 @@ h6 {
         justify-content: center;
         align-items: center;
 
-        margin: 0 auto;
+        margin: 20 0 10 0;
         padding: 0;
     }
     
     #app-store {
-        width: 80%;
-        /* height: 60px; */
-        margin: 0 auto;
+        width: 180px;
+        height: 60px;
+        margin: 0 0 5 0;
         padding: 0;
     }
     
     #google-play {
-        width: 80%;
-        /* height: 60px; */
-        margin: 0 auto;
+        width: 180px;
+        height: 60px;
+        margin: 0;
         padding: 0;
     }
 
@@ -341,6 +341,16 @@ h6 {
 @media screen and (max-width: 350px) {
     #specs {
         flex-direction: column;
+        margin: 0 0 0 0;
+        padding: 30 0 5 0;
+ 
+    }
+
+    #features {
+        font-size: 120%;
+        line-height: 100%;
+        margin: 0 0 20 0;
+        padding: 0 0;
     }
     
 }
