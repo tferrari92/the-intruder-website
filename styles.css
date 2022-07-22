@@ -49,17 +49,33 @@ h6 {
     margin: 30px 0 0 0;
 }
 
+#header {
+    /* text-align: right; */
+    padding: 15px;
+    padding-left: 760px;
+}
+
+.language-button {
+    background: none;
+    border: none;
+    font-size: 25;
+}
+
+.language-button:hover {
+    cursor: pointer;
+}
+
 #hero {
     /* width: 1100px; */
     margin-left: auto;
     margin-right: auto;
-    padding: 90px 0 10px 20px;
+    padding: 50px 0 10px 20px;
     
     display: flex;
     justify-content: center;
     align-items: center;
 
-    background: linear-gradient(#ffffff,#dcdeff);
+    background: linear-gradient(#ffffff, #ffffff, #dcdeff);
 }
 
 #titles-buttons {
@@ -155,11 +171,11 @@ h6 {
     justify-content: center;
     align-items: center;
     padding: 10px 70px 0 70px;
-    background: linear-gradient(#dcdeff, #ffffff);
+    background: linear-gradient(#dcdeff, #ffffff, #ffffff);
 
 }
 
-#features {
+.features {
     font-family: 'Lilita One', cursive;
     font-size: 30;
     margin-bottom: 20;
@@ -168,9 +184,7 @@ h6 {
 
 #screens {
     padding-bottom: 0px;
-    width: 1050px;
-
-    
+    width: 1050px; 
 }
 
 
@@ -215,6 +229,17 @@ h6 {
 }
 
 @media screen and (max-width: 500px) {
+
+    #header {
+        padding: 15px;
+        padding-left: 780px;
+    }
+    
+    .language-button {
+        background: none;
+        border: none;
+        font-size: 25;
+    }
 
     #hero {
         display: flex;
@@ -315,7 +340,7 @@ h6 {
         
     }
     
-    #features {
+    .features {
         font-size: 120%;
         line-height: 100%;
         margin-top: 25;
@@ -346,7 +371,7 @@ h6 {
  
     }
 
-    #features {
+    .features {
         font-size: 120%;
         line-height: 100%;
         margin: 0 0 20 0;
