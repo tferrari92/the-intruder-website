@@ -91,3 +91,15 @@ function redirectToAppropiateTerms() {
         terms.setAttribute("href", "terms.html")
     }
 }
+
+// Show appropiate Rules page depending on language
+function redirectToAppropiateRules() {
+
+    let terms = document.getElementById("Game-rules")
+
+    if (isInSpanish) {
+        terms.setAttribute("href", "rules-es.html")
+    } else {
+        terms.setAttribute("href", "rules.html")
+    }
+}
