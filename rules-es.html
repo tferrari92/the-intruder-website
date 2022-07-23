@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+    </head>
+    <body style="margin: 60 10vw;">
+        <div>
+            <h1 id="Rules">Reglas</h1>
+        </div>
+        <div class="left-allingment">
+            <ul>
+                <li>
+                    En 'El Intruso' se enfrentan los Miembros contra el/los Intruso(s).
+                </li>
+                <li>
+                    Primero se designará un Ídolo, este puede ser Automático o Personalizado. Con la función de Ídolo Personalizado activada, el rol de Ídolo lo ocupará uno de los jugadores.
+                </li>
+                <li>
+                    El Ídolo elegirá una Palabra Clave, la cual será conocida por todos los Miembros, pero no por los Intrusos. También elegirá una Pista para cada Intruso, así estos podrán sobrevivir más fácilmente a la primera ronda.
+                </li>
+                <li>
+                    El dispositivo pasará de jugador en jugador, asignando roles y comunicando: a los Miembros la Palabra Clave, y a los Intrusos su respectiva Pista.
+                </li>
+                <li>
+                    Luego se procederá a una Ronda de Palabras: uno a uno irán dicendo una palabra en voz alta. Los Miembros deberán decir una palabra relacionada a la Palabra Clave para demostrar que efectivamente son Miembros. Los Intrusos podrán decir la Pista que recibieron.
+                </li>
+                <li>
+                    El objetivo de los Intrusos es descifrar cuál es la Palabra Clave, a través de las palabras que escucharon decir al resto de los jugadores.
+                </li>
+                <li>
+                    Una vez que finalizó la Ronda de Palabras, se procederá a la Ronda de Eliminación.
+                </li>
+                <li>
+                    Todos los jugadores debatirán sobre quién creen que es el/los Intrusos. Luego del debate, se procederá a una votación, en la cual cada uno votará a quien sospecha que es Intruso.
+                </li>
+                <li>
+                    Una vez finalizada la Ronda de Eliminación, alguien habrá sido eliminado y sabremos si tenemos un ganador o no.
+                </li>
+                <li>
+                    Si todos los Intrusos han sido eliminados, habrán ganado los Miembros. Si los el/los Intrusos ocupan un determinado porcentaje del total de jugadores, habrá ganado el/los Intrusos.
+                </li>
+                <li>
+                    Si luego de la votación no hay ganador, se procederá a una nueva Ronda de Palabras, seguida por otra Ronda de Eliminación, y así sucesivamente, hasta que se defina un ganador.
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h6>Glosario</h6>
+        </div>
+        <div class="left-allingment">
+            <ul>
+                <li>
+                    Ronda de eliminación: incluye todas las instancias de votación hasta que se haya definido un eliminado, esto incluye a la votación inicial, junto con todos los posibles ballotages subsiguientes. Ejemplos:<br>
+                    a) Votación inicial -> Queda eliminado Jugador X (Esto es considerado una ronda de eliminación.)<br>
+                    b) Votación inicial -> Ballotage -> Segundo Ballotage -> Queda eliminado Jugador X (Esto es considerado una ronda de eliminación.)
+                </li>
+                <li>
+                    Ronda de palabras: una instancia en la cual cada uno de los jugadores dice en voz alta una palabra relacionada a la palabra clave. La ronda de palabras finaliza cuando el último jugador en la ronda ha dicho su palabra.
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h6>Especificaciones</h6>
+        </div>
+        <div class="left-allingment">
+            <ul>
+                <li>
+                    Si luego de la votación inicial quedan 2 o más personas con la misma cantidad de votos, se pasará a un ballotage entre estos. En cambio, si en este ballotage los nominados son 3 o mas: todos votarán, inclusive los nominados.
+                </li>
+                <li>
+                    Si en este ballotage los nominados son 2: los votantes serán todos menos los 2 nominados. 
+                </li>
+                <li>
+                    Puede pasar que haya mas de un ballotage, por ejemplo, en la votación inicial quedan 4 nominados, se pasa a un primer ballotage en el cual 2 personas de esas 4 quedan con la misma cantidad de votos, en este caso se pasará a un segundo ballotage entre esos 2 jugadores.
+                </li>
+                <li>
+                    Para este segundo ballotage y para todos los ballotages subsiguientes, la regla es que solo votarán los que nunca estuvieron nominados (en la ronda de eliminación concurrente), es decir que no votarán los nominados actuales, ni los que fueron nominados inicialmente y se salvaron en el ballotage previo.
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h6>Results</h6>
+        </div>
+        <div>
+            <iframe id="results" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSh-bQwR2Q1lOVvnEHgR8gPxkGyQarvJURedMhC31oWSsDf0F8zEL_m3PYmo7rQr3ZnaKdFmYdWemjd/pubhtml?gid=1847230289&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        </div>
+    </body>
+</html>
+
+
+
+    <!-- ¡Hola! Soy Tomas, creador de El Intruso.Para más información visita:
+    www.facebook.com/elintrusopartygame
+    
+    Si deseas colaborar agregando Palabras Claves divertidas a nuestra librería de Palabras Claves envianos tus ideas a:
+    elintrusopartygame@gmail.com
+    Tu colaboración es muy agradecida.
+    
+    Gracias por jugar a El Intruso. -->
+
+
+            
+            
+            
+            
+            
