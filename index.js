@@ -48,7 +48,9 @@ let icons = document.getElementById("Icons")
 
 function switchToEnglish() {
     // Switch to appropiate language
-    isInSpanish = !isInSpanish
+    if (isInSpanish) {
+        isInSpanish = false
+    }
 
     welcomeTo.textContent = "Welcome to"
     theIntruder.textContent = "The Intruder"
@@ -65,7 +67,9 @@ function switchToEnglish() {
 
 function switchToSpanish() {
     // Switch to appropiate language
-    isInSpanish = !isInSpanish
+    if (isInSpanish == false) {
+        isInSpanish = true
+    }
 
     welcomeTo.textContent = "Bienvenidos a"
     theIntruder.textContent = "El Intruso"
@@ -86,7 +90,7 @@ function redirectToAppropiateTerms() {
     let terms = document.getElementById("Terms")
 
     if (isInSpanish) {
-        terms.setAttribute("href", "terms-es.html")
+        terms.setAttribute("href", "terminos.html")
     } else {
         terms.setAttribute("href", "terms.html")
     }
@@ -98,7 +102,7 @@ function redirectToAppropiateRules() {
     let terms = document.getElementById("Game-rules")
 
     if (isInSpanish) {
-        terms.setAttribute("href", "rules-es.html")
+        terms.setAttribute("href", "reglas.html")
     } else {
         terms.setAttribute("href", "rules.html")
     }
