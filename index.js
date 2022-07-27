@@ -48,9 +48,8 @@ let icons = document.getElementById("Icons")
 
 function switchToEnglish() {
     // Switch to appropiate language
-    if (isInSpanish) {
-        isInSpanish = false
-    }
+    isInSpanish = false
+
 
     welcomeTo.textContent = "Welcome to"
     theIntruder.textContent = "The Intruder"
@@ -67,9 +66,8 @@ function switchToEnglish() {
 
 function switchToSpanish() {
     // Switch to appropiate language
-    if (isInSpanish == false) {
-        isInSpanish = true
-    }
+    isInSpanish = true  
+
 
     welcomeTo.textContent = "Bienvenidos a"
     theIntruder.textContent = "El Intruso"
